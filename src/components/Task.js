@@ -33,7 +33,7 @@ const Task = () => {
                 {tasks.length === 0 && <p>No Data Found!</p>}
                 {tasks.map((task,index) => (
                     <tr key={`todo-${index}`}>
-                    <td>{task.title} {task.completed ? 'yes' : 'no'}</td>
+                    <td>{task.title}</td>
                     <td>
                         <i className="small material-icons teal-text text-darken-1" onClick={() => handlComplete(task)}>done</i>
                         <i className="small material-icons red-text text-darken-1" onClick={() => handlDelete(task.id)}>close</i>
