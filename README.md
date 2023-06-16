@@ -1,3 +1,16 @@
+
+# Todo App in React
+
+In this project todo's are fetched from 'jsonplaceholder' API. You can add a new task and mark as complete the task and also you can remove the task from tasklist.
+After mark as complete the task it will be moved to 'done' section. 
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
